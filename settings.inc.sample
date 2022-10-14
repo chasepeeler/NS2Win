@@ -1,0 +1,10 @@
+[Variables]
+NightScoutURL=https://path.to.nightscout.app/  ;keep trailing slash (/)
+; Nightscout TOKEN
+; Info MK: When using token variable: make sure to always start the string with "?token="[YOUR TOKEN] !!
+NightScoutToken=
+; Low/High threshould values for red/orange signal colors
+LowGlucoseAlert=70
+HighGlucoseAlert=180
+; this variable is in MINUTES; will notify with changed output after XX minutes of "no data reception" = stale data
+StaleGlucoseAlertMinutes=15
